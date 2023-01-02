@@ -1,0 +1,78 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgb(29, 194, 30);
+  margin: 1rem;
+  font-size: 3rem;
+  text-shadow: 1px 1px 5px rgb(29, 194, 30);
+  -webkit-animation: aguacate 5s forwards;
+          animation: aguacate 5s forwards;
+}
+
+p {
+  margin: 10px;
+  color: rgb(29, 194, 30);
+  -webkit-animation: aguacate 5s forwards;
+          animation: aguacate 5s forwards;
+}
+@-webkit-keyframes aguacate {
+  90% {
+    filter: blur(100px);
+  }
+}
+@keyframes aguacate {
+  90% {
+    filter: blur(100px);
+  }
+}
+
+.boton {
+  color: white;
+  border: 1px solid white;
+  margin: 3rem;
+  padding: 20px;
+  border-radius: 10%;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.boton:hover {
+  color: white;
+  transition: 1s;
+  box-shadow: 0px 10px 1px white;
+}
+
+footer {
+  position: relative;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=styleIndex.css.map */
